@@ -66,6 +66,24 @@ const siteConfig = {
     },
   ],
 
+// ✅ Unified MOOC + Certifications Section
+  certifications: [
+    {
+      title: 'Your Certificate or Specialization',
+      specialization: true,
+      file: getAsset('images/education/Certifications/download.svg'),
+      certificates: [
+        { name: 'Course 1', file: getAsset('images/education/Certifications/download.svg') },
+        { name: 'Course 2', file: getAsset('images/education/Certifications/download.svg') },
+      ],
+    },
+    {
+      title: 'Another Certificate',
+      file: getAsset('images/education/Certifications/download.svg'),
+    },
+  ],
+
+
 
   // ✅ Experience section updated
   experience: [
@@ -75,6 +93,51 @@ const siteConfig = {
       place: 'FLEKT by KIRIX',
       time: '(DEC 2025 – Present)',
       desp: ['Analyzed and transformed raw datasets to generate insights, develop dashboards, and support data-driven decision-making.'],
+    },
+  ],
+
+
+
+  // ✅ Projects section updated
+  projects: [
+    {
+      title: 'Project Title 1',
+      cardImage: getAsset('images/project/placeholder.png'),
+      description: 'Short description of your project and what it does...',
+      Githublink: 'https://github.com/your-username/your-project',
+    },
+    {
+      title: 'Project Title 2',
+      cardImage: getAsset('images/project/placeholder.png'),
+      description: 'Another project summary...',
+      Githublink: 'https://github.com/your-username/another-project',
+    },
+  ],
+
+
+  research: [
+    {
+      title: 'Your Paper or Research Title',
+      authors: 'Your Name, Collaborator Name',
+      conferences: 'Conference or Journal, Publisher',
+      researchYr: 2024,
+  image: getAsset('images/research/placeholder.png'),
+      citation: {
+        vancouver:
+          'Author A, Author B. Title of the work. Venue, Year. DOI/URL.',
+      },
+      abstract:
+        'One or two sentences summarizing the contribution...',
+      link: 'https://example.com/your-publication',
+    },
+  ],
+
+  books: [
+    {
+      title: 'Your Book Title',
+      description: 'Short description of your book or resource.',
+      image: getAsset('images/book_cover_placeholder.png'),
+      link: 'https://example.com/your-book',
     },
   ],
 
